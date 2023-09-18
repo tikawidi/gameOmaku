@@ -1,0 +1,624 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1689176411143105, "dur":1806, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411144922, "dur":953, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1689176411145939, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1689176411145969, "dur":653, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1689176411146643, "dur":707, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411147350, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415001, "dur":153, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415154, "dur":268, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415422, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415427, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415438, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415439, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415446, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415448, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415454, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415456, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415462, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415464, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415470, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415472, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415478, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415480, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415485, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415487, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415492, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415494, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415501, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415502, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415508, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415510, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415516, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415541, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411415559, "dur":2776, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1689176411146844, "dur":553, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411147398, "dur":5511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411152910, "dur":1160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689176411154073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411159740, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689176411163252, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g).exe" }}
+,{ "pid":12345, "tid":1, "ts":1689176411163305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411163313, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g).exe" }}
+,{ "pid":12345, "tid":1, "ts":1689176411166446, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411166475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411167129, "dur":9379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411176649, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411176692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411176704, "dur":6352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411183084, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411183115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411183123, "dur":15254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411198391, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411198433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411198438, "dur":9840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411208297, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411208389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411208393, "dur":7078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411215486, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411215500, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411215505, "dur":5113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411220646, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411220670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411220678, "dur":3854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411224550, "dur":1393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411225949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411225958, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411229203, "dur":1337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411230545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411230552, "dur":4326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411234907, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411234925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411234929, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411237722, "dur":1173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411238902, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411238916, "dur":3787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411242729, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411242749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411242756, "dur":8060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411250839, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411250863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411250873, "dur":12487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689176411265094, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689176411265140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689176411265203, "dur":65715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689176411330944, "dur":84019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411146759, "dur":610, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411147376, "dur":5484, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411152873, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1689176411152875, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411153144, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1689176411153153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411154639, "dur":3897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1689176411158542, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1689176411158859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411159955, "dur":4303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1689176411164567, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411164610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411165368, "dur":10719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411176130, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411176175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411176186, "dur":8341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411184555, "dur":34213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411218777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411218786, "dur":4449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411223253, "dur":3041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411226344, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411226376, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411229157, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411229995, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411230006, "dur":4423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411234476, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411234498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411234506, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411238073, "dur":1502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411239584, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411239593, "dur":4894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411244516, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411244545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411244557, "dur":6183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411250833, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411250864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411250872, "dur":5990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411256880, "dur":57505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411314393, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411314403, "dur":5596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689176411320028, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1689176411320058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689176411320068, "dur":11099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1689176411331202, "dur":83756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411146819, "dur":566, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411147385, "dur":5529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411152915, "dur":1101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689176411154020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411157604, "dur":3564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689176411161871, "dur":966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411162842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411163105, "dur":26566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411189844, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411189872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411189879, "dur":10666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411200585, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411200623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411200636, "dur":11271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411211937, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411211969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411211978, "dur":6872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411218873, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411218894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411218900, "dur":5515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411224435, "dur":8658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411233100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411233110, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411236610, "dur":2564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411239179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411239186, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411242161, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411242202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411242262, "dur":6291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411248580, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411248636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411248642, "dur":13765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689176411262430, "dur":815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1689176411263253, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411263770, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1689176411267003, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689176411267024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411267029, "dur":34242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689176411301313, "dur":1436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1689176411302761, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411302779, "dur":6113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1689176411308926, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689176411309011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411309021, "dur":13082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689176411322175, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689176411322226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689176411322239, "dur":10407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689176411332672, "dur":82302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411146904, "dur":510, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411147414, "dur":5459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411152875, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1689176411153713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411155401, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1689176411160076, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689176411160719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411160728, "dur":3362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689176411164202, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411164291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411165515, "dur":11008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411176545, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411176575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411176582, "dur":7804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411184424, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411184445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411184451, "dur":14275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411198753, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411198778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411198785, "dur":10812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411209640, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411209668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411209681, "dur":6763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411216476, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411216503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411216511, "dur":4823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411221357, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411221379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411221389, "dur":4560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411225976, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411226578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411226584, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411229573, "dur":812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411230391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411230399, "dur":3953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411234375, "dur":5875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411240254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411240285, "dur":7227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411247544, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411247574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411247585, "dur":5097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411252712, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411252743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411252750, "dur":9712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689176411262542, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1689176411262573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411262649, "dur":9249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1689176411271927, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1689176411271949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411271955, "dur":40703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1689176411312703, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1689176411312743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411312758, "dur":6078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1689176411318892, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1689176411318921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689176411318934, "dur":13726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1689176411332685, "dur":82311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411146953, "dur":473, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411147426, "dur":5462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411152889, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1689176411153902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411157659, "dur":3492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1689176411161817, "dur":1496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411163320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411163352, "dur":7032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411170822, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411170875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411170885, "dur":13085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411184028, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411184112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411184135, "dur":14048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411198202, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411198271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411198279, "dur":11488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411209785, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411209812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411209859, "dur":7461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411217339, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411217359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411217366, "dur":5820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411223216, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411223239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411223246, "dur":4818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411228084, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411228451, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411228463, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411231433, "dur":1187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411232628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411232637, "dur":3500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411236156, "dur":1884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411238044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411238051, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411240757, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411240775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411240782, "dur":7064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411247872, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411247907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411247914, "dur":8524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411256494, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411256522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411256529, "dur":10220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689176411266776, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1689176411266798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411266807, "dur":13656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1689176411280488, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1689176411280510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411280515, "dur":44215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1689176411324756, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1689176411324785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689176411324795, "dur":8194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1689176411333017, "dur":81937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411147010, "dur":434, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411147445, "dur":5440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411152886, "dur":699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1689176411153589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411155366, "dur":4482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1689176411161677, "dur":878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1689176411162560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411162597, "dur":10809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1689176411173626, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411173673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411173682, "dur":8757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411182474, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411182522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411182534, "dur":7369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411189933, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411189967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411189974, "dur":11657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411201656, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411201684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411201695, "dur":10550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411212265, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411212504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411212511, "dur":6371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411218919, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411219016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411219024, "dur":4202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411223245, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411223271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411223277, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411226534, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411226966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411226973, "dur":4218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411231207, "dur":30193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411261408, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411261418, "dur":10115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689176411271564, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1689176411271591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411271603, "dur":15483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1689176411287116, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1689176411287135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411287141, "dur":7646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1689176411294815, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1689176411294842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689176411294849, "dur":120039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1689176411414907, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1689176411414909, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411147071, "dur":391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411147462, "dur":5407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411152902, "dur":928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1689176411153835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411156342, "dur":3674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1689176411160383, "dur":1084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1689176411161474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411161484, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1689176411165296, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411165348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411165551, "dur":10582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411176156, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411176184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411176190, "dur":6421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411182633, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411182658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411182663, "dur":6337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411189022, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411189045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411189054, "dur":9259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411198341, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411198376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411198391, "dur":9839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411208267, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411208289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411208295, "dur":7481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411215807, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411215828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411215835, "dur":4832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411220692, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411220725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411220731, "dur":5288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411226038, "dur":814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411226859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411226867, "dur":4299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411231193, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411231694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411231706, "dur":3120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411234848, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411234870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411234877, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411238843, "dur":1224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411240077, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411240090, "dur":5128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411245238, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411245267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411245273, "dur":6991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411252291, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411252339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411252347, "dur":9919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411262288, "dur":2143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/AimingRig.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411264442, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411264454, "dur":7771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/AimingRig.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689176411272242, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1689176411272262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689176411272268, "dur":82552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1689176411354849, "dur":60157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411147117, "dur":363, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411147480, "dur":5391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411152874, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1689176411153450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411155599, "dur":4131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1689176411159874, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1689176411160258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411160291, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1689176411164078, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1689176411164271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411164487, "dur":20208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1689176411184855, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411184885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411184891, "dur":12935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411197862, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411197902, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411197919, "dur":6788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411204733, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411204764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411204774, "dur":10453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411215250, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411215277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411215285, "dur":4526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411219834, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411219854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411219861, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411224400, "dur":4886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411229290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411229299, "dur":3985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411233306, "dur":105789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411339113, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689176411339132, "dur":3834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689176411342997, "dur":71959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411147178, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411147492, "dur":5436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411152929, "dur":1102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1689176411154036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411158068, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1689176411162589, "dur":1080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1689176411163675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411163682, "dur":12625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1689176411176939, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411176971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411177015, "dur":7211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411184250, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411184275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411184332, "dur":13726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411198077, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411198099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411198105, "dur":10097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411208225, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411208305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411208312, "dur":7373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411215705, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411215736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411215743, "dur":4934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411220695, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411220716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411220723, "dur":4219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411224956, "dur":1609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411226570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411226579, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411229826, "dur":1116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411230954, "dur":109, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411231074, "dur":4869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411235965, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411235988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411235995, "dur":4293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411240316, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411240340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411240345, "dur":8895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411249261, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411249281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411249288, "dur":12340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411261698, "dur":25156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411286868, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411286889, "dur":7833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689176411294767, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1689176411294797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411294805, "dur":18159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1689176411312999, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1689176411313017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411313022, "dur":6096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/level4" }}
+,{ "pid":12345, "tid":9, "ts":1689176411319142, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1689176411319163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689176411319167, "dur":10756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1689176411329983, "dur":84978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411147225, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411147497, "dur":5381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411152878, "dur":828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1689176411153712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411155600, "dur":4991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1689176411161465, "dur":785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1689176411162257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411162266, "dur":7762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1689176411170245, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411170357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411170367, "dur":9105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411179516, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411179559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411179572, "dur":6407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411186002, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411186036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411186046, "dur":11686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411197757, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411197818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411197827, "dur":6921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411204771, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411204803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411204809, "dur":7293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411212133, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411212151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411212157, "dur":6932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411219149, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411219186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411219192, "dur":4438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411223650, "dur":10048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411233705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411233713, "dur":3099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411236829, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411237603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411237613, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411240637, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411240656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411240661, "dur":7203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411247893, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411247920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411247926, "dur":8430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411256377, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411256400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411256407, "dur":24500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689176411280933, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1689176411280952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689176411280958, "dur":74082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1689176411355059, "dur":59935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411147281, "dur":243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411147524, "dur":5352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411152878, "dur":1002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1689176411153886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411156590, "dur":3908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1689176411161424, "dur":674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1689176411162104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411162114, "dur":8036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1689176411170510, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411170564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411170573, "dur":9420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411180086, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411180181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411180196, "dur":7959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411188180, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411188209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411188218, "dur":9875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411198112, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411198130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411198135, "dur":9174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411207327, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411207348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411207354, "dur":7886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411215283, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411215303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411215307, "dur":4393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411219719, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411219740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411219748, "dur":4166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411223935, "dur":13945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411237886, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411237897, "dur":4254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411242179, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411242201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411242256, "dur":9809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411252094, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411252124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411252133, "dur":10211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411262363, "dur":942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411263311, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411264867, "dur":7083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689176411271982, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1689176411272001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411272005, "dur":22891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1689176411294917, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1689176411294938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411294942, "dur":11177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1689176411306273, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1689176411306300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411306310, "dur":19241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1689176411325580, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1689176411326101, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689176411326113, "dur":6261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1689176411332455, "dur":82542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411147327, "dur":207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411147535, "dur":5369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411152905, "dur":1156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1689176411154066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411158610, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1689176411162519, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411163314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411163319, "dur":53408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411216896, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411216932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411216940, "dur":7033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411224025, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411224076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411224085, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411227659, "dur":1867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411229531, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411229540, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411233381, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411233401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411233409, "dur":5624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411239053, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411239073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411239080, "dur":6152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411245248, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411245278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411245283, "dur":7256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411252561, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411252598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411252604, "dur":10468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689176411263105, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":12, "ts":1689176411263139, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411263154, "dur":17290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":12, "ts":1689176411280471, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1689176411280495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411280503, "dur":25104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1689176411305638, "dur":1572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1689176411307223, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411307238, "dur":10795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1689176411318078, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APKOTW/My project (g)_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1689176411318119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689176411318131, "dur":11177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APKOTW/My project (g)_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1689176411329339, "dur":85627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689176411419950, "dur":2308, "ph":"X", "name": "ProfilerWriteOutput" }
+,
